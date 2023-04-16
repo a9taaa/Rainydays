@@ -1,0 +1,24 @@
+body {
+    font font-family: Arial, Verdana sans-serif;}
+    h1 {color: #326572;}
+
+    *{
+        text-align: center;
+        }
+
+    img.logorainydays {
+        width: 330px;
+        height: 210px;}
+
+        body {
+            background-color: rgba(255, 166, 0, 0);
+          }
+          
+          main {
+            background-color: #d6e6ea;
+          }
+
+          IMG.bakgrunn image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto }
