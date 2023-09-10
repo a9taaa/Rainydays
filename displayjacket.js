@@ -28,7 +28,7 @@ async function displayJackets() {
 
 function showLoadingIndicator() {
   const itemList = document.getElementById("jacket-list");
-  itemList.innerHTML = "<li>.</li>";
+  itemList.innerHTML = "<li>Loading...</li>";
 }
 
 displayJackets();
