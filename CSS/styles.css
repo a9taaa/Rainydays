@@ -1,64 +1,59 @@
 body {
-  font-family: Arial, Verdana sans-serif;
+  font-family: Arial, Verdana, sans-serif;
   text-align: center;
-  text-decoration-color: #3fa3a7;
-  text-decoration-color: #3fa3a7;
-  h1 {color: #326572;}
-  background-color: rgba(255, 166, 0, 0);
-  font-size: large;
-  font-stretch: expanded;
-}
-  
-
-/* styles.css | file:///C:/Users/anita/OneDrive/Dokumenter/GitHub/Rainydays/css/styles.css */
-
-
-      
-main {
-background-color: #d6e6ea;
+  font-size: medium;
+  background-color: #ffffff;
+  color: #146470;
 }
 
-IMG.bakgrunn image {
-display: block;
-margin-left: auto;
-margin-right: auto }
+h1 {
+  color: #146470;
+}
 
+#jacket-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  list-style-type: none;
+}
 
-/* Inline #1 | file:///C:/Users/anita/OneDrive/Dokumenter/GitHub/Rainydays/index.html */
+#jacket-list li {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: transform 0.3s ease-in-out;
+}
 
+#jacket-list li:hover {
+  transform: translateY(-5px);
+}
 
 .logo-image {
-width: 100%;
+  width: 100%;
 }
 
 .logo {
-max-width: 300px;
+  max-width: 300px;
+  margin-bottom: 20px;
 }
 
 img {
-width: 100%;
-}
-
-
-/* Element | file:///C:/Users/anita/OneDrive/Dokumenter/GitHub/Rainydays/mens.html */
-
-body > main:nth-child(3) > section:nth-child(1) {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Inline #1 | file:///C:/Users/anita/OneDrive/Dokumenter/GitHub/Rainydays/mens.html */
-
-.media {
-  flex: 1 0 300px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .loading-indicator {
-  border:16px solid #f3f3f3;
-  border-top: 16px solid #3498db;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3a83b3;
   border-radius: 50%;
   width: 120px;
   height: 120px;
   animation: spin 2s linear infinite;
 }
-
