@@ -6,6 +6,24 @@ body {
     color: #146470;
 }
 
+nav {
+    background-color: #146470;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
 h1 {
     color: #146470;
 }
@@ -37,6 +55,11 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.socials-image {
+    max-width: 150px;
+    height: auto; 
 }
 
 .loading-indicator {

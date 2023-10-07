@@ -11,6 +11,7 @@ async function displayJackets() {
     const data = await fetchJackets();
     const jacketList = document.getElementById("jacket-list");
 
+    hideLoadingIndicator();
 
     const listItem = document.createElement("li");
 
@@ -33,12 +34,16 @@ async function displayJackets() {
     listItem.appendChild(priceElement);
 
     jacketList.appendChild(listItem);
-};
-
+}
 
 function showLoadingIndicator() {
     const itemList = document.getElementById("jacket-list");
     itemList.innerHTML = "<li>Loading...</li>";
+}
+
+function hideLoadingIndicator() {
+    const itemList = document.getElementById("jacket-list");
+    itemList.innerHTML = "";
 }
 
 displayJackets();
